@@ -29,6 +29,10 @@ https://online.hillsdale.edu/courses/mathematics-and-logic-from-euclid-to-modern
 *** 
 
 ## Lesson 1. Mathematics and Liberal Education
+
+
+
+
 ## Lesson 2. The Fundamentals of Logic
 ## Lesson 2 Quiz
 ## Lesson 3. Deductive Reasoning and the Transformation of Mathematics
