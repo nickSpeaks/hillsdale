@@ -23,3 +23,5 @@ Lesson 10
 Lesson 11. Non-Euclidean Geometry
 Lesson 11 Quiz
 Final Quiz
+
+This is the IDE-updated version
