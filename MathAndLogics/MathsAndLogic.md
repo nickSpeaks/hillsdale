@@ -581,98 +581,660 @@ Verify if it's an equilateral triangle:
 The Elements, Books 1-6: Geometry; Books 7-9: Arithmetics. (Overall: 13 books)
 
 ## Lesson 4 Quiz
-### Q
+### Q1. 
+The three features of a good axiomatic system are completeness, ______, and consistency.
 
-    []  
-    []  
-    []  
-    []  
+    []  novelty
+    [+]  independence
+    []  flexibility
+    []  none of the above
+
+### Q2. 
+Euclid of Alexandria wrote his Elements around ______.
+
+    []  490 B.C.
+    [+]  300 B.C.
+    []  43 B.C.
+    []  180 A.D.
+
+### Q3. 
+Euclid’s Elements is second only to the Bible in terms of ______.
+
+    []  number of books purchased
+    []  number of translations
+    []  number of commentaries written in response
+    [+]  number of editions published
+
+### Q4. 
+Definition 1 of the Elements indicates that a point has ______, which means that it is an abstract, idealized object.
+
+    []  no length
+    []  no depth
+    []  no width
+    [+]  all of the above
+
+### Q5. 
+Definition 2 of the Elements establishes that a line is length without _____.
+
+    []  a curve
+    []  an end
+    [+]  breadth
+    []  all of the above
+
+### Q6. 
+Euclid divides the ten axioms of his Elements into two categories: ______, which are geometric first principles, and ______, which are more general mathematical axioms that he assumes.
+
+    [+]  postulates; common notions
+    []  common notions; postulates
+    []  definitions; common notions
+    []  postulates; definitions
+
+### Q7. 
+Euclid’s ______ postulate is his most famous and controversial because it is longer, more complicated, a conditional statement, and involves the preceding postulates.
+
+    []  first
+    []  third
+    [+]  fifth
+    []  sixth
+
+### Q8.
+Proposition 1 of Book I is important in Euclid’s Elements primarily because it establishes the existence of ______.
+
+    []  parallel lines
+    [+]  triangles
+    []  circles
+    []  right angles
 
 
 ## Lesson 5. Neutral Geometry: The Early Propositions of Euclid's Elements
+4 postulates
+
+Proposition 1: ability to construct an equilateral triangle
+
+![](math_5_01.png)
+
+Of trilateral figures, 
+
+    an equilateral triangle is that which has its three sides equal, 
+    an isosceles triangle that which has two of its sides alone equal, and 
+    a scalene triangle that which has its three sides unequal.
+
+### Proposition 2
+
+![](math_5_02.png)
+
+To place at a given point a straight line equal to a given straight line.
+
+![](math_5_03.png)
+
+- Given point A and line segment BC
+- Let's construct a line segment at A that has the same length as BC.
+- Postulate 1: connect A and B; construct 2 circles based on A and B; find D at the crossing of A and B circles.
+
+![](math_5_04.png)
+
+- Triangle ABD is equilateral
+- Postulate 2: Extend straight lines BD and AD as far as I needed to (indefinitely)
+
+![](math_5_05.png)
+
+- Construct a circle centered at B with Radius BC
+
+![](math_5_06.png)
+
+- Circle's intersection with line BD (extended) is point G 
+
+![](math_5_07.png)
+
+- BG = BC because they're both Radius of the same circle
+- Now let's create a circle with the center of D and Radius DG
+
+![](math_5_08.png)
+
+- Line DA intersects with the circle at point L
+
+![](math_5_09.png)
+
+- Now I know that DG = Dl as they're the Radius of the same circle
+- LD = DG
+- DA = DB
+- Therefore, AL = BG
+- As BC = BG, 
+
+![](math_5_10.png)
+
+AL = BC, QED ("Quot erat demonstrandum" - что и требовалось доказать)
+
+### Proposition 3
+
+![](math_5_11.png)
+
+Given two unequal straight lines, to cut off from the greater a straight line equal to the less.
+
+### Proposition 4
+Congruence - side length, angles, and areas are identical.
+
+![](math_5_12.png)
+
+- If two sides and their angles of each triangle are equal, 
+- then the rest side and two angles are equal as well.
+- Additionally, areas of these triangles are equal.
+
+### Proposition 6: superposition
+
+### Proposition 8
+![](math_5_13.png)
+
+    If two triangles have the two sides equal to two sides respectively, 
+    and have also the base equal to the base, they will also have the 
+    angles equal which are contained by the equal straight lines.
+
+### Proposition 9
+
+![](math_5_14.png)
+
+- Start with an angle BAC
+- pick a random point D on line AB
+- by Proposition 2, move that line segment AD over on to AC -> create point E
+- by Postulate 1, draw straight line from D to E
+
+![](math_5_15.png)
+
+- now we can build an equilateral triangle on top of that
+- with a campus, make circles centered in D and E, 
+- let's call this intersection point F
+
+![](math_5_16.png)
+
+- draw straight lines DF and EF, they have the same distance
+- AD and AE are also constructed to have the same length
+
+![](math_5_17.png)
+
+Draw in a straight line AF
+
+![](math_5_18.png)
+
+- Now AF breaks down ADFE into 2 equilateral triangles
+- two sides of one triangle ADF are equal to two sides of the other triangle AEF
+- Also, AF is common to both of those triangles
+
+- Triangles are congruent -> their corresponding parts are congruent; 
+- therefore, all angles of one triangle are equal to those of the corresponding triangle, 
+- Angle BAF = angle CAF, and we have bisected the angle.
+
+Latitudes = circles (through North / South Poles)
+
+### Proposition 15
+![](math_5_19.png)
+
+Vertical angles are equal to each other
+
 ## Lesson 5 Quiz
 
+### Q1.
+In Proposition 4 Euclid assumes—without stating—the principle of _____, which allows the pieces of a triangle to be moved to a new location and placed back together in exactly the same way.
 
-### Q
+    []  conversion
+    []  equidecomposability
+    [+]  superposition
+    []  non-contradiction
 
-    []  
-    []  
-    []  
-    []  
+### Q2.
+Proposition 9 allows for an angle to be ______.
+
+    [+]  bisected
+    []  inverted
+    []  enlarged
+    []  rotated
+
+### Q3.
+Latitudes on a sphere are equivalent to lines in plane geometry because they provide the shortest distance between two points.
+
+    []  True
+    [+]  False
+
+### Q4.
+In spherical geometry it is impossible to construct an equilateral triangle on a globe.
+
+    []  True
+    [+]  False
+
+### Q5.
+It is impossible to construct parallel lines on a sphere.
+
+    [+]  True
+    []  False 
+
+### Q6.
+The angles on the opposite sides of intersecting lines, or vertical angles, are ____.
+
+    []  > 180°
+    []  both right angles
+    [+]  equal
+    []  none of the above
 
 ## Lesson 6. Euclid's Fifth Postulate.
+
+
+
 ## Lesson 6 Quiz
 
+### Q1.
 
-### Q
+    []  
+    []  
+    []  
+    []  
+
+### Q2.
 
     []  
     []  
     []  
     []  
+
+### Q3.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q4.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q5.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q6.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q7.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q8.
+
+    []  
+    []  
+    []  
+    []  
+
+
 
 ## Lesson 7. Euclid's Proof of the Pythagorean theorem
 ## Lesson 7 Quiz
 
+### Q1.
 
-### Q
+    []  
+    []  
+    []  
+    []  
+
+### Q2.
 
     []  
     []  
     []  
     []  
+
+### Q3.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q4.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q5.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q6.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q7.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q8.
+
+    []  
+    []  
+    []  
+    []  
+
+ 
 
 ## Lesson 8. Number Theory and Solid Geometry in the Elements
 ## Lesson 8 Quiz
 
+### Q1.
 
-### Q
+    []  
+    []  
+    []  
+    []  
+
+### Q2.
 
     []  
     []  
     []  
     []  
+
+### Q3.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q4.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q5.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q6.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q7.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q8.
+
+    []  
+    []  
+    []  
+    []
 
 
 ## Lesson 9. Euler and the Birth of a New Geometry.
 ## Lesson 9 Quiz
 
+### Q1.
 
-### Q
+    []  
+    []  
+    []  
+    []  
+
+### Q2.
 
     []  
     []  
     []  
     []  
+
+### Q3.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q4.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q5.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q6.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q7.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q8.
+
+    []  
+    []  
+    []  
+    []  
+
 
 ## Lesson 10. The History of the Fifth Postulate
 ## Lesson 10
 
+### Q1.
 
-### Q
+    []  
+    []  
+    []  
+    []  
+
+### Q2.
 
     []  
     []  
     []  
     []  
+
+### Q3.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q4.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q5.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q6.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q7.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q8.
+
+    []  
+    []  
+    []  
+    []  
+
+
 
 ## Lesson 11. Non-Euclidean Geometry
 ## Lesson 11 Quiz
 
+### Q1.
 
-### Q
+    []  
+    []  
+    []  
+    []  
+
+### Q2.
 
     []  
     []  
     []  
     []  
+
+### Q3.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q4.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q5.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q6.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q7.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q8.
+
+    []  
+    []  
+    []  
+    []  
+
+
 
 ## Final Quiz
 
+### Q1.
 
-### Q
+    []  
+    []  
+    []  
+    []  
+
+### Q2.
 
     []  
     []  
     []  
     []  
+
+### Q3.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q4.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q5.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q6.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q7.
+
+    []  
+    []  
+    []  
+    []  
+
+### Q8.
+
+    []  
+    []  
+    []  
+    []
