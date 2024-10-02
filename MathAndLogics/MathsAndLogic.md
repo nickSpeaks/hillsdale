@@ -67,7 +67,7 @@ Examples of implications
     Statement 2:    It flies.
     Implication:    If it is a bird, then it flies.
 
-![]()
+![](math_1_01.png)
  
 ## Lesson 2 Quiz
 ## Lesson 3. Deductive Reasoning and the Transformation of Mathematics
