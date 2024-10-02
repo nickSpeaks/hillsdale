@@ -67,7 +67,7 @@ Examples of implications
     Statement 2:    It flies.
     Implication:    If it is a bird, then it flies.
 
-![](math_1_01.png)
+![](math_2_01.png)
 
 If P, then Q. / P implies Q.
 * P - antecedent
@@ -82,7 +82,7 @@ If P, then Q. / P implies Q.
  
 A converse is not logically equivalent to an implication:
 
-![](math_1_02.png)
+![](math_2_02.png)
 
 ### Inverse Statement 
 Negation of both antecedent and consequent:
@@ -134,7 +134,7 @@ Denying the consequent
     If it rains, then I will take my umbrella.
     I did not take my unbrella. Therefore, it did not rain.
 
-![](math_1_03.png)
+![](math_2_03.png)
 
 ### Modus Tollens > Fallacy
 Fallacy of affirming the consequent.
@@ -151,7 +151,7 @@ A proof by contradiction.
                                 
     // we'll need to find sth that is not a bird, but flies.
 
-![](math_1_04.png)
+![](math_2_04.png)
 
     Implication:            If P, then Q.
     Negation:               P = true; Q = not true
@@ -304,7 +304,7 @@ A statement is either true or false.
     ... Truth, however, is inherent in the nature of number and inbred in it."
                                     Philolaus, on the Universe, "Fragment 11"
 
-![](math_2_01.png)
+![](math_3_01.png)
 
 More explicitly, 
 
@@ -312,19 +312,19 @@ More explicitly,
 
 ### Pythagorean theorem
 
-![](math_2_02.png)
+![](math_3_02.png)
 
 True? No, it's not possible
 
 ### Starting Assumption
-![](math_2_03.png)
+![](math_3_03.png)
 
 If we square both sides of the expression,
 
     2 = M^2 / N^2
     2N^2 = M^2
 
-![](math_2_04.png)
+![](math_3_04.png)
 
     If M^2 is even, then M itself must be even.
 
@@ -336,7 +336,7 @@ M must be even (the only alternative). Then, M must be a multiple of 2. Then,
 
     M^2 = (2K)^2 = 4K^2
 
-![](math_2_05.png)
+![](math_3_05.png)
 
 which is a contradiction:
 
@@ -377,7 +377,7 @@ Every integer greater than 1 can be written as a product of primes.
 
     50 | 5, 5, 2    // 50 is product of 5, 5, and 2
 
-![](math_2_05.png)
+![](math_3_05.png)
 
 There are supposed to be numbers not on my list.
 
@@ -457,15 +457,130 @@ G.H. Hardy argues in A Mathematician’s Apology that the highest kind of mathem
 ### Q8.
 Euclid’s proof of the infinitude of primes provides the necessary foundation for ____ used today.
 
-    []  public key cryptography
+    [+]  public key cryptography
     []  search engine algorithms
     []  programming language
     []  none of the above
 
 ## Lesson 4. Begin at the Beginning: The Axioms of Euclidean Geometry
+
+### Axiom
+A statement we accept without proof.
+
+### Goals of an axiom system
+1. Complete - the number of axioms should be enough to derive all results we desire for our system.
+2. Independent - not too many axioms, we shouldn't use anything that can be derived/proven from other theorems on the list.
+3. Consistent - axioms should be in agreement with one another.
+
+#### famous example: Euclid's Elements
+Book 1 > Definitions > A point 
+
+    A point has no size
+                no thickness
+                no width
+                no breadth
+                no depth
+                no length
+
+A straight line
+
+    A line is length without breadth
+    The extremities of a line are points
+    A straight line is a line that liels evenly with the points on itself
+
+    i.e. A line does not have to be straight, according to Euclid (= curve today).
+         If Euclid refers to a straight line, he explicitly calls it 'a straight line'.
+
+A right angle
+
+![](math_4_01.png)
+
+A circle 
+
+    is a plain figure contained by a single line, such that all straight lines 
+    falling on it from a single point within the figure are equal to one another.
+    And that point is called the center of the circle.
+
+### Definition 23
+Parallel straight lines 
+
+    are straight lines which, being in the same plane and being produced indefinitely
+    in both directions, do not meet one another in either direction.
+    
+### 10 Axioms of 2 categories
+1. Postulates - geometric first principles for The Elements.
+2. Common Notions - more general Maths definitions.
+
+![](math_4_02.png)
+
+### Postulates
+Let the following be postulated:
+1. To draw a straight line from any point to any other point. 
+2. To produce a finite straight line or to continue it endlessly, indefinitely, in a straight line.
+3. To describe a circle with any center and distance.
+4. That all right angles are equal to one another.
+5. That, if a straight line falling on two straight lines make the interior angles on the same side less than two right angles, the two straight lines, if produced indefinitely, meet on that side on which are the angles less than the two right angles.
+
+Postulates 1, 2, and 3 are construction postulates.
+
+Postulate 5 is different, and the most controversial:
+- longer
+- a visual cue is needed
+- explicitly an if-then statement (form of propositions and theorems)
+- invokes Euclid's other postulates
+- is it independent?
+- Euclid himself tends to avoid this postulate as much as he can
+
+![](math_4_03.png)
+
+### Common Notions
+
+![](math_4_04.png)
+
+1. Things which are equal to the same things are also equal to one another.
+2. If equal be added to equals, the whole are equal.
+3. If equals be subtracted from equals, the remainders are equal.
+4. Things which coincide with one another are equal to one another.
+5. The whole is greater than the part.
+
+    
+    These 5 common notions stipulate the notion of equality
+    // Euclids never defines equality, but often refers to it.
+
+They are:
+- agreeable
+- self-evident
+- worthy of acceptance.
+
+### First Proposition
+
+    On a given finite straight line it is possible to construct an equilateral triangle.
+
+![](math_4_05.png)
+
+Book 1 > Proposition 1 > Construction of an equilateral triangle
+
+Step 1. Make a circle with centre at point A and Radius AB
+
+![](math_4_06.png)
+
+Step 2. The second circle having B as its center and AB as its Radius.
+
+![](math_4_07.png)
+
+Step 3. Find the point where circles meet and call it C. Draw straight lines C to A and C to B.
+
+![](math_4_08.png)
+
+Verify if it's an equilateral triangle:
+- sides AB & AC are both radia of red circle, so AB = AC
+- sides AB & BC are both radia of blue circle, AB = BC
+- both AC and BC are equal to AB; therefore, equal to one another
+=> equilateral triangle.
+
+The Elements, Books 1-6: Geometry; Books 7-9: Arithmetics. (Overall: 13 books)
+
 ## Lesson 4 Quiz
-
-
 ### Q
 
     []  
