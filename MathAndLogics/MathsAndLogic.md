@@ -30,10 +30,45 @@ https://online.hillsdale.edu/courses/mathematics-and-logic-from-euclid-to-modern
 
 ## Lesson 1. Mathematics and Liberal Education
 
-
-
-
 ## Lesson 2. The Fundamentals of Logic
+
+### Statement
+Statement = a sentence that is either true or false
+
+- a question is not a statement
+- we should be able to assign a truth value to it
+- either true or false, not both, and not either 
+
+Examples of statements
+
+    The hat is red.
+
+    The program failed.
+
+### Negation
+Negation = a statement that contains the opposite truth value of another statement.
+
+    Statement:      The hat is red.
+    Negation:       The hat is not red.
+
+    Statement:      The program failed.
+    Negation:       The program did not fail.
+
+    Statement:      All men are mortal.
+    Negation:       Some man is mortal.
+
+    Statement:      The base anles are equal.
+    Negation:       The base anles are not equal.
+
+### Implications (if - then statements)
+Examples of implications
+
+    Statement 1:    It is a bird.
+    Statement 2:    It flies.
+    Implication:    If it is a bird, then it flies.
+
+![]()
+ 
 ## Lesson 2 Quiz
 ## Lesson 3. Deductive Reasoning and the Transformation of Mathematics
 ## Lesson 3 Quiz
