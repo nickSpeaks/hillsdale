@@ -68,7 +68,22 @@ Examples of implications
     Implication:    If it is a bird, then it flies.
 
 ![](math_1_01.png)
+
+If P, then Q. / P implies Q.
+* P - antecedent
+* Q - consequent 
+
+### Converse Statement
+- Original statement: If Q, then P
+- Converse statement: If P, then Q.
+
+
+     If it flies, then it is a bird.
  
+Converse is not logically equivalent to implication:
+
+![](math_1_02.png)
+
 ## Lesson 2 Quiz
 ## Lesson 3. Deductive Reasoning and the Transformation of Mathematics
 ## Lesson 3 Quiz
